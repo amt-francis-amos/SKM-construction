@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - SKM Construction & Industry SL Ltd.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="photo/SK logo.jpeg" alt="SKM Construction Logo"> <!-- Logo Image -->
+        <h1>Our Services</h1>
+    </header>
+
+    <nav>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span> <!-- Hamburger Icon -->
+        <ul id="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="our-company.html">Our Company</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Our-Projects</a></li>
+        </ul>
+    </nav>
+
+    <section class="service-sec">
+        <h2>Overview of Our Services</h2>
+        <p>At SKM Construction & Industry SL Ltd., we offer a comprehensive range of construction services designed to meet the diverse needs of our clients. Our commitment to quality and safety ensures that every project we undertake is completed to the highest standards.</p>
+        
+        <h3>Our Core Services</h3>
+        <div class="service-container">
+            <div class="service-box">
+                <img src="photo/engineering-man-working-building-construction-site-worke-worker-foreman-against-beautiful-dusky-sky-45169105.webp" alt="Building Construction">
+                <div>
+                    <h3><i class="fas fa-building"></i> Building Construction</h3>
+                    <p>Specializing in residential, commercial, and industrial projects.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <img src="photo/beautiful-view-construction-site-city-sunset_181624-9347.avif" alt="Road and Bridge Construction">
+                <div>
+                    <h3><i class="fas fa-road"></i> Road and Bridge Construction</h3>
+                    <p>Providing essential infrastructure to support economic growth.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <img src="photo/BNAParkingGrnd051118_160-950x633-1-950x570.jpg" alt="Water and Sewage Systems">
+                <div>
+                    <h3><i class="fas fa-water"></i> Water and Sewage Systems</h3>
+                    <p>Enhancing public health with our sustainable water solutions.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <img src="photo/download.jpeg" alt="Industrial and Commercial Construction">
+                <div>
+                    <h3><i class="fas fa-cogs"></i> Industrial and Commercial Construction</h3>
+                    <p>Delivering tailored solutions for your commercial needs.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <img src="photo/AEbackgroundImmage.jpg" alt="Material Supply">
+                <div>
+                    <h3><i class="fas fa-truck"></i> Material Supply</h3>
+                    <p>Providing quality construction materials for all projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div style="display: flex; justify-content: space-between; padding: 20px; background-color: #003366; color: white;">
+            <div style="flex: 1;">
+                <img src="photo/SK logo.jpeg" alt="SKM Construction Logo" style="height: 50px;"> <!-- Company Logo -->
+                <p><strong>Contact Us:</strong></p>
+                <p>Email: <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a></p>
+                <p>Phone: 077-008688 / 076699649</p>
+                <p>Address: 386 Bai Bureh Road, Calaba Town, Freetown</p>
+            </div>
+            
+            <nav style="flex: 1; text-align: center;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 10px 0;"><a href="home.html" style="color: white;">Home</a></li>
+                    <li style="margin: 10px 0;"><a href="about.html" style="color: white;">About</a></li>
+                    <li style="margin: 10px 0;"><a href="services.html" style="color: white;">Services</a></li>
+                    <li style="margin: 10px 0;"><a href="our-company.html" style="color: white;">Our Company</a></li>
+                    <li style="margin: 10px 0;"><a href="contact.html" style="color: white;">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div style="flex: 1; text-align: right;">
+                <h4 style="color: white;">Frequently Asked Questions</h4>
+                <div class="faq-section">
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: What services does SKM offer?</summary>
+                        <p>A: SKM offers a range of services including construction, civil engineering, road and bridge construction, and material supply.</p>
+                    </details>
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: How can I contact SKM?</summary>
+                        <p>A: You can contact us via email at <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a> or call us at 077-008688 / 076699649.</p>
+                    </details>
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: Where is SKM located?</summary>
+                        <p>A: Our office is located at 386 Bai Bureh Road, Calaba Town, Freetown.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center; padding: 10px; background-color: #003366; color: white;">© 2024 SKM Construction & Industry SL Ltd. All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Toggle navigation menu for smaller screens
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show'); // Toggle visibility
+        }
+    </script>
+</body>
+</html>

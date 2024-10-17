@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - SKM Construction & Industry SL Ltd.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+        <img src="photo/SK logo.jpeg" alt="SKM Construction Logo"> <!-- Logo Image -->
+        <h1>Welcome to SKM Construction & Industry SL Ltd.</h1>
+        <p>Building the Future, Today</p>
+    </header>
+
+    <nav>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span> <!-- Hamburger Icon -->
+        <ul id="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="companies.html">Our Company</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Our-Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="slideshow-container">
+        <img class="mySlides" src="photo/BNAParkingGrnd051118_160-950x633-1-950x570.jpg" alt="Project 1">
+        <img class="mySlides" src="photo/Project-2.jpg" alt="Project 2">
+        <img class="mySlides" src="photo/Home-heroe.jpg" alt="Project 3">
+    </div>
+
+    <section class="home-sec">
+        <h2>Who We Are</h2>
+        <p>We are a leading construction company in Sierra Leone, delivering excellence in civil engineering, building, and more since 2009. Our commitment to quality, safety, and sustainability drives every project we undertake.</p>
+        <div class="info-section">
+            <div class="info-box">
+                <h3><i class="fas fa-flag"></i> Our Mission</h3>
+                <p>To deliver exceptional construction services that exceed client expectations while ensuring sustainability and safety in all our operations.</p>
+            </div>
+            <div class="info-box">
+                <h3><i class="fas fa-eye"></i> Our Vision</h3>
+                <p>To be the premier construction company in Sierra Leone, recognized for our integrity and quality.</p>
+            </div>
+            <div class="info-box">
+                <h3><i class="fas fa-star"></i> Our Values</h3>
+                <p>Integrity, Quality, and Safety are at the core of everything we do.</p>
+            </div>
+        </div>
+    </section>
+    <!-- the our Team -->
+   
+ 
+
+    <footer>
+        <div style="display: flex; justify-content: space-between; padding: 20px; background-color: #003366; color: white;">
+            <div style="flex: 1;">
+                <img src="photo/SK logo.jpeg" alt="SKM Construction Logo" style="height: 50px;"> <!-- Company Logo -->
+                <p><strong>Contact Us:</strong></p>
+                <p>Email: <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a></p>
+                <p>Phone: 077-008688 / 076699649</p>
+                <p>Address: 386 Bai Bureh Road, Calaba Town, Freetown</p>
+            </div>
+            
+            <nav style="flex: 1; text-align: center;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 10px 0;"><a href="home.html" style="color: white;">Home</a></li>
+                    <li style="margin: 10px 0;"><a href="about.html" style="color: white;">About</a></li>
+                    <li style="margin: 10px 0;"><a href="services.html" style="color: white;">Services</a></li>
+                    <li style="margin: 10px 0;"><a href="our-company.html" style="color: white;">Our Company</a></li>
+                    <li style="margin: 10px 0;"><a href="contact.html" style="color: white;">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div style="flex: 1; text-align: right;">
+                <h4 style="color: white;">Frequently Asked Questions</h4>
+                <div class="faq-section">
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: What services does SKM offer?</summary>
+                        <p>A: SKM offers a range of services including construction, civil engineering, road and bridge construction, and material supply.</p>
+                    </details>
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: How can I contact SKM?</summary>
+                        <p>A: You can contact us via email at <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a> or call us at 077-008688 / 076699649.</p>
+                    </details>
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: Where is SKM located?</summary>
+                        <p>A: Our office is located at 386 Bai Bureh Road, Calaba Town, Freetown.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center; padding: 10px; background-color: #003366; color: white;">© 2024 SKM Construction & Industry SL Ltd. All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Slideshow functionality
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            const slides = document.getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex - 1].style.display = "block";  
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+
+        // Toggle navigation menu for smaller screens
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show'); // Toggle visibility
+        }
+    </script>
+</body>
+</html>

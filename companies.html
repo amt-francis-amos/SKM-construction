@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Company - SKM Construction & Industry SL Ltd.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="photo/SK logo.jpeg" alt="SKM Construction Logo"> <!-- Logo Image -->
+        <h1>Our Companies</h1>
+    </header>
+
+    <nav>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span> <!-- Hamburger Icon -->
+        <ul id="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="our-company.html">Our Company</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Our-Projects</a></li>
+        </ul>
+    </nav>
+
+    <section class="company-sec">
+        <h2>Overview of Our Company Group</h2>
+        <p>SKM Construction & Industry SL Ltd. is proud to be part of a diverse group of companies committed to providing quality services across various sectors. Below are some of the companies within our group:</p>
+        
+        <div class="company-container">
+            <div class="company-box">
+                <img src="img/company1.jpg" alt="Company 1">
+                <div>
+                    <h3>SKM Construction</h3>
+                    <p>Leading construction services, providing innovative solutions for both residential and commercial projects.</p>
+                    <a href="company1.html" style="color: white;">Read More</a>
+                </div>
+            </div>
+            <div class="company-box">
+                <img src="img/company2.jpg" alt="Company 2">
+                <div>
+                    <h3>Maggie Factory</h3>
+                    <p>Specializing in food production, ensuring quality and safety in all our products.</p>
+                    <a href="company2.html" style="color: white;">Read More</a>
+                </div>
+            </div>
+            <div class="company-box">
+                <img src="img/company3.jpg" alt="Company 3">
+                <div>
+                    <h3>SKM Materials</h3>
+                    <p>Supplying high-quality construction materials to meet all project requirements.</p>
+                    <a href="company3.html" style="color: white;">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div style="display: flex; justify-content: space-between; padding: 20px; background-color: #003366; color: white;">
+            <div style="flex: 1;">
+                <img src="photo/SK logo.jpeg" alt="SKM Construction Logo" style="height: 50px;"> <!-- Company Logo -->
+                <p><strong>Contact Us:</strong></p>
+                <p>Email: <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a></p>
+                <p>Phone: 077-008688 / 076699649</p>
+                <p>Address: 386 Bai Bureh Road, Calaba Town, Freetown</p>
+            </div>
+            
+            <nav style="flex: 1; text-align: center;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 10px 0;"><a href="home.html" style="color: white;">Home</a></li>
+                    <li style="margin: 10px 0;"><a href="about.html" style="color: white;">About</a></li>
+                    <li style="margin: 10px 0;"><a href="services.html" style="color: white;">Services</a></li>
+                    <li style="margin: 10px 0;"><a href="companies.html" style="color: white;">Our Company</a></li>
+                    <li style="margin: 10px 0;"><a href="contact.html" style="color: white;">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div style="flex: 1; text-align: right;">
+                <h4 style="color: white;">Frequently Asked Questions</h4>
+                <div class="faq-section">
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: What services does SKM offer?</summary>
+                        <p>A: SKM offers a range of services including construction, civil engineering, road and bridge construction, and material supply.</p>
+                    </details>
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: How can I contact SKM?</summary>
+                        <p>A: You can contact us via email at <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a> or call us at 077-008688 / 076699649.</p>
+                    </details>
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: Where is SKM located?</summary>
+                        <p>A: Our office is located at 386 Bai Bureh Road, Calaba Town, Freetown.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center; padding: 10px; background-color: #003366; color: white;">© 2024 SKM Construction & Industry SL Ltd. All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Toggle navigation menu for smaller screens
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show'); // Toggle visibility
+        }
+    </script>
+</body>
+</html>

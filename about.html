@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - SKM Construction & Industry SL Ltd.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff4d4d; /* Red */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            height: 50px; /* Logo height */
+            display: block;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: #003366; /* Blue */
+            text-align: center;
+            position: relative;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Allow wrapping for smaller screens */
+            height: 8vh;
+            align-items: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            background-color: #ff4d4d; /* Red */
+        }
+        .menu-icon {
+            display: none;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
+        
+        footer {
+            background-color: #003366; /* Blue */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer img {
+            height: 50px; /* Footer Logo Height */
+        }
+        footer nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        footer nav ul li {
+            margin: 0 10px;
+        }
+        footer nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        footer nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .faq-section {
+            background-color: #003366; /* Dark Blue */
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .faq-section h4 {
+            margin-bottom: 10px;
+        }
+        .faq-section p {
+            margin: 5px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none; /* Hide the navigation links by default */
+                flex-direction: column; /* Stack links vertically */
+                width: 100%;
+                position: absolute;
+                background-color: #003366; /* Blue */
+                top: 100%;
+                left: 0;
+            }
+            nav ul.show {
+                display: flex; /* Show when class is added */
+            }
+            .menu-icon {
+                display: block; /* Show the menu icon */
+            }
+            .team-member {
+                width: 80%; /* Make team members full-width on smaller screens */
+            }
+        }
+    </style> -->
+</head>
+<body>
+    <header>
+        <img src="photo/SK logo.jpeg" alt="SKM Construction Logo"> <!-- Logo Image -->
+        <h1>About SKM Construction & Industry SL Ltd.</h1>
+    </header>
+
+    <nav>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span> <!-- Hamburger Icon -->
+        <ul id="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="companies.html">Our Company</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Our-Projects</a></li>
+        </ul>
+    </nav>
+
+    <section class="about-pg-section">
+        <h2>Our Story</h2>
+        <p>SKM Construction & Industry SL Ltd. was founded in 2009 and has become a trusted name in the construction industry in Sierra Leone. With a commitment to excellence and innovation, SKM has completed a variety of projects, ranging from civil engineering to road and bridge construction.</p>
+        
+        <h3><i class="fas fa-bullseye"></i> Mission</h3>
+        <p>Our mission is to deliver exceptional construction services that exceed client expectations while ensuring sustainability and safety in all our operations.</p>
+
+        <h3><i class="fas fa-trophy"></i> Key Achievements</h3>
+        <ul>
+            <li>Successfully completed the construction of a 500-unit modern barracks complex for the Ministry of Defence.</li>
+            <li>Rehabilitation of Mabonto 7.4 Km feeder road.</li>
+            <li>Education Admin Buildings for Prince of Wales Secondary School.</li>
+        </ul>
+
+        
+        <section class="team">
+            <h3><i class="fas fa-users"></i> Our Team</h3>
+            <div class="team-cards">
+                <!-- Cards here -->
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src=
+                        "https://media.geeksforgeeks.org/wp-content/uploads/20230824122630/
+                         business-office-business-woman-professional.jpg" alt="User 1">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-name">John Smith</h2>
+                        <p class="card-role">CEO and Founder</p>
+                        <p class="card-email">john@gmail.com</p>
+                        <p>With over 20 years of experience in construction and management, John leads the SKM team with vision and integrity.</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+     
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src=
+                        "https://media.geeksforgeeks.org/wp-content/uploads/20230822183347/
+                        man-portrait-businessman-male.jpg" alt="User 2">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-name">Jane Doe</h2>
+                        <p class="card-role">Managing Director</p>
+                        <p class="card-email">janedoe@gmail.com</p>
+                        <p>Jane oversees all operations, ensuring projects are completed on time and within budget while maintaining quality standards.</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src=
+                        "https://media.geeksforgeeks.org/wp-content/uploads/20230824122630/
+                        business-office-business-woman-professional.jpg" alt="User 3">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-name">Michael Johnson</h2>
+                        <p class="card-role">Operation Manager</p>
+                        <p class="card-email">cole@example.com</p>
+                        <p>Michael is responsible for the smooth running of daily operations and project execution.</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <h3><i class="fas fa-globe"></i> Community Engagement</h3>
+        <p>We believe in giving back to the community. Through various initiatives, we support local development and contribute to sustainable practices that benefit everyone.</p>
+    </section>
+
+    <footer>
+        <div style="display: flex; justify-content: space-between; padding: 20px; background-color: #003366; color: white;">
+            <div style="flex: 1;">
+                <img src="img/logo.png" alt="SKM Construction Logo" style="height: 50px;"> <!-- Company Logo -->
+                <p><strong>Contact Us:</strong></p>
+                <p>Email: <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a></p>
+                <p>Phone: 077-008688 / 076699649</p>
+                <p>Address: 386 Bai Bureh Road, Calaba Town, Freetown</p>
+            </div>
+            
+            <nav style="flex: 1; text-align: center;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 10px 0;"><a href="index.html" style="color: white;">Home</a></li>
+                    <li style="margin: 10px 0;"><a href="about.html" style="color: white;">About</a></li>
+                    <li style="margin: 10px 0;"><a href="services.html" style="color: white;">Services</a></li>
+                    <li style="margin: 10px 0;"><a href="our-company.html" style="color: white;">Our Company</a></li>
+                    <li style="margin: 10px 0;"><a href="contact.html" style="color: white;">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div style="flex: 1; text-align: right;">
+                <h4 style="color: white;">Frequently Asked Questions</h4>
+                <div class="faq-section">
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: What services does SKM offer?</summary>
+                        <p>A: SKM offers a range of services including construction, civil engineering, road and bridge construction, and material supply.</p>
+                    </details>
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: How can I contact SKM?</summary>
+                        <p>A: You can contact us via email at <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a> or call us at 077-008688 / 076699649.</p>
+                    </details>
+                    <details style="margin-bottom: 10px;">
+                        <summary style="cursor: pointer; color: white;">Q: Where is SKM located?</summary>
+                        <p>A: Our office is located at 386 Bai Bureh Road, Calaba Town, Freetown.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center; padding: 10px; background-color: #003366; color: white;">© 2024 SKM Construction & Industry SL Ltd. All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Toggle navigation menu for smaller screens
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show'); // Toggle visibility
+        }
+    </script>
+</body>
+</html>
