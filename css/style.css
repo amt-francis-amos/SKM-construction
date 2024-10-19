@@ -54,9 +54,20 @@ nav ul li a:hover {
     color: white;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        margin: 0px 10em;
+    }
+    
+    nav ul {
+        display: none;
+    }
+}
 
 
 footer {
+    justify-content: space-evenly;
     background-color: #003366; /* Blue */
     color: white;
     text-align: center;
@@ -65,10 +76,12 @@ footer {
 footer img {
     height: 50px; /* Footer Logo Height */
 }
-footer nav ul {
+
+.fotter-nav-ul{
     display: flex;
-    justify-content: center;
-    padding: 0;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-between;
 }
 footer nav ul li {
     margin: 0 10px;
@@ -78,7 +91,8 @@ footer nav ul li a {
     text-decoration: none;
 }
 footer nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+
 }
 .faq-section {
     background-color: #003366; /* Dark Blue */
@@ -94,24 +108,91 @@ footer nav ul li a:hover {
     margin: 5px 0;
 }
 
-/* Responsive Design */
+
+/* FOOTER STYLING */
+
+
+/* .footer-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-info p,
+.footer-info li {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-info ul li {
+    margin: 8px 0;
+}
+
+.footer-info ul.icons li {
+    display: flex;
+    align-items: center;
+}
+
+.footer-info ul.icons li i {
+    margin-right: 10px;
+} */
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.social-links a:hover {
+    color: #ff4d4d; /* Red on hover */
+}
+
+.copy-right {
+    background-color: #002b4c; /* Slightly darker blue */
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design for Footer */
 @media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        position: relative;
+        right: 50px; /* Aligns menu icon to the right */
+        top: 15px;
+    }
+
     nav ul {
-        display: none; /* Hide the navigation links by default */
+        display: none; /* Hide nav links by default */
         flex-direction: column; /* Stack links vertically */
         width: 100%;
-        position: absolute;
-        background-color: #003366; /* Blue */
-        top: 100%;
+        background-color: #003366; /* Blue background */
+        position: relative;
+        top: 100%; /* Ensure dropdown starts after nav */
         left: 0;
     }
+
     nav ul.show {
-        display: flex; /* Show when class is added */
+        display: flex; /* Show the menu when toggle is triggered */
+        flex-direction: column;
     }
-    .menu-icon {
-        display: block; /* Show the menu icon */
+
+    nav ul li {
+        width: 100%;
+        text-align: center; /* Center the links */
+        margin: 10px 0;
     }
 }
+
 
 /*  HOME PAGE STYLING*/
 .slideshow-container {
@@ -131,10 +212,14 @@ footer nav ul li a:hover {
 .home-sec {
     padding: 40px;
     text-align: center;
-    background-color: white;
+    background-image: url(../photo/abstract-watercolor-pastel-background_87374-139.avif);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    
 }
 .info-section {
     display: flex;
@@ -159,6 +244,20 @@ footer nav ul li a:hover {
    
 
 /*.....................................ABOUT PAGE STYLING...............................*/
+.about-us-main-cover{
+    height: 40vh;
+    width: 100%;
+}
+.about-us-cover-img{
+    background-image: url(../photo/AEbackgroundImmage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+    
+    color: black;
+}
 
 .about-pg-section {
     padding: 40px;
@@ -235,6 +334,24 @@ footer nav ul li a:hover {
 
 /*................................SERVICE PAGE........................................*/
 
+.service-main-cover{
+    height: 40vh;
+    width: 100%;
+    
+}
+.service-cover-img{
+    background-image: url(../photo/Our\ company\ BG.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+   
+    color: black;
+}
+
+
+
 .service-sec {
     padding: 40px;
     text-align: center;
@@ -272,6 +389,21 @@ footer nav ul li a:hover {
 
 /*...............................OUR COMPANY PAGE STYLING.....................................*/
 
+.company-main-cover{
+    height: 40vh;
+    width: 100%;
+}
+.company-cover-img{
+    background-image: url(../photo/Our-Company-BG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+    
+    color: black;
+}
+
 .company-sec {
     padding: 40px;
     text-align: center;
@@ -306,6 +438,21 @@ footer nav ul li a:hover {
 
 /*.....................................CONTACT PAGE.......................................... */
 
+.contact-us-main-cover{
+    height: 40vh;
+    width: 100%;
+}
+.contact-us-cover-img{
+    background-image: url(../photo/Contact\ us\ BG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+    
+    color: black;
+}
+
 .contact-sec {
     padding: 40px;
     text-align: center;
@@ -330,6 +477,14 @@ footer nav ul li a:hover {
     text-align: left;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-info{
+    border-radius: 12px;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+    box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.3);
+    
 }
 .contact-box:hover {
     transform: scale(1.05);

@@ -6,119 +6,7 @@
     <title>About Us - SKM Construction & Industry SL Ltd.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #ff4d4d; /* Red */
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header img {
-            height: 50px; /* Logo height */
-            display: block;
-            margin: 0 auto;
-        }
-        nav {
-            background-color: #003366; /* Blue */
-            text-align: center;
-            position: relative;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap; /* Allow wrapping for smaller screens */
-            height: 8vh;
-            align-items: center;
-        }
-        nav ul li {
-            margin: 0 10px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 15px 20px;
-            font-weight: bold;
-        }
-        nav ul li a:hover {
-            background-color: #ff4d4d; /* Red */
-        }
-        .menu-icon {
-            display: none;
-            font-size: 24px;
-            color: white;
-            cursor: pointer;
-        }
-        
-        footer {
-            background-color: #003366; /* Blue */
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        footer img {
-            height: 50px; /* Footer Logo Height */
-        }
-        footer nav ul {
-            display: flex;
-            justify-content: center;
-            padding: 0;
-        }
-        footer nav ul li {
-            margin: 0 10px;
-        }
-        footer nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        footer nav ul li a:hover {
-            text-decoration: underline;
-        }
-        .faq-section {
-            background-color: #003366; /* Dark Blue */
-            color: white;
-            padding: 15px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-        .faq-section h4 {
-            margin-bottom: 10px;
-        }
-        .faq-section p {
-            margin: 5px 0;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            nav ul {
-                display: none; /* Hide the navigation links by default */
-                flex-direction: column; /* Stack links vertically */
-                width: 100%;
-                position: absolute;
-                background-color: #003366; /* Blue */
-                top: 100%;
-                left: 0;
-            }
-            nav ul.show {
-                display: flex; /* Show when class is added */
-            }
-            .menu-icon {
-                display: block; /* Show the menu icon */
-            }
-            .team-member {
-                width: 80%; /* Make team members full-width on smaller screens */
-            }
-        }
-    </style> -->
+   
 </head>
 <body>
     <header>
@@ -129,7 +17,7 @@
     <nav>
         <span class="menu-icon" onclick="toggleMenu()">&#9776;</span> <!-- Hamburger Icon -->
         <ul id="nav-links">
-            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="companies.html">Our Company</a></li>
@@ -137,6 +25,11 @@
             <li><a href="gallery.html">Our-Projects</a></li>
         </ul>
     </nav>
+    <section class="about-us-main-cover">
+        <div class="about-us-cover-img" style="padding: 4em 0; font-size: 24px;">
+            <center><h1>ABOUT US</h1></center>
+        </div>
+    </section>
 
     <section class="about-pg-section">
         <h2>Our Story</h2>
@@ -213,24 +106,24 @@
     <footer>
         <div style="display: flex; justify-content: space-between; padding: 20px; background-color: #003366; color: white;">
             <div style="flex: 1;">
-                <img src="img/logo.png" alt="SKM Construction Logo" style="height: 50px;"> <!-- Company Logo -->
+                <img src="photo/SK logo.jpeg" alt="SKM Construction Logo" style="height: 50px;"> <!-- Company Logo -->
                 <p><strong>Contact Us:</strong></p>
                 <p>Email: <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a></p>
                 <p>Phone: 077-008688 / 076699649</p>
                 <p>Address: 386 Bai Bureh Road, Calaba Town, Freetown</p>
             </div>
             
-            <nav style="flex: 1; text-align: center;">
-                <ul style="list-style: none; padding: 0;">
-                    <li style="margin: 10px 0;"><a href="index.html" style="color: white;">Home</a></li>
-                    <li style="margin: 10px 0;"><a href="about.html" style="color: white;">About</a></li>
-                    <li style="margin: 10px 0;"><a href="services.html" style="color: white;">Services</a></li>
-                    <li style="margin: 10px 0;"><a href="our-company.html" style="color: white;">Our Company</a></li>
-                    <li style="margin: 10px 0;"><a href="contact.html" style="color: white;">Contact</a></li>
+            <nav class="footer-nav">
+                <ul class="fotter-nav-ul">
+                    <li ><a href="home.html" style="color: white;">Home</a></li>
+                    <li ><a href="about.html" style="color: white;">About</a></li>
+                    <li ><a href="services.html" style="color: white;">Services</a></li>
+                    <li ><a href="our-company.html" style="color: white;">Our Company</a></li>
+                    <li ><a href="contact.html" style="color: white;">Contact</a></li>
                 </ul>
             </nav>
             
-            <div style="flex: 1; text-align: right;">
+            <div style="flex: 1;">
                 <h4 style="color: white;">Frequently Asked Questions</h4>
                 <div class="faq-section">
                     <details style="margin-bottom: 10px;">
@@ -250,7 +143,6 @@
         </div>
         <p style="text-align: center; padding: 10px; background-color: #003366; color: white;">© 2024 SKM Construction & Industry SL Ltd. All Rights Reserved</p>
     </footer>
-
     <script>
         // Toggle navigation menu for smaller screens
         function toggleMenu() {
