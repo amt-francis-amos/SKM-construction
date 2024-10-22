@@ -14,7 +14,9 @@
     </header>
 
     <nav>
-        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span> <!-- Hamburger Icon -->
+        <i id="menu-icon" onclick="toggleMenu()" class="fa fa-bars"></i>
+        <i id="close-icon" onclick="toggleMenu()" class="fa fa-times" style="display: none;"></i> 
+        
         <ul id="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -44,7 +46,7 @@
                     <p><strong>Phone:</strong> 077-008688 / 076699649</p>
                     <p><strong>Address:</strong> 386 Bai Bureh Road, Calaba Town, Freetown</p><br>
 
-                </div>
+                </div> <br>
 
                 <h3>Liberia Contact Information</h3>
                 <div class="contact-info">
@@ -72,8 +74,8 @@
     </section>
 
     <footer>
-        <div style="display: flex; justify-content: space-between; padding: 20px; background-color: #003366; color: white;">
-            <div style="flex: 1;">
+        <div class="footer-container">
+            <div class="footer-info">
                 <img src="photo/SK logo.jpeg" alt="SKM Construction Logo" style="height: 50px;"> <!-- Company Logo -->
                 <p><strong>Contact Us:</strong></p>
                 <p>Email: <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a></p>
@@ -81,17 +83,17 @@
                 <p>Address: 386 Bai Bureh Road, Calaba Town, Freetown</p>
             </div>
             
-            <nav class="footer-nav">
-                <ul class="fotter-nav-ul">
+            <div class="footer-info">
+                <ul>
                     <li ><a href="home.html" style="color: white;">Home</a></li>
                     <li ><a href="about.html" style="color: white;">About</a></li>
                     <li ><a href="services.html" style="color: white;">Services</a></li>
                     <li ><a href="our-company.html" style="color: white;">Our Company</a></li>
                     <li ><a href="contact.html" style="color: white;">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
             
-            <div style="flex: 1;">
+            <div class="footer-info">
                 <h4 style="color: white;">Frequently Asked Questions</h4>
                 <div class="faq-section">
                     <details style="margin-bottom: 10px;">
