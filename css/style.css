@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .fa-bars{
-     display:none;
+     display: none;
 }
 
 footer {
@@ -280,6 +280,45 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
+section.projects {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    color: #003366; /* Blue */
+}
+
+.project p {
+    margin: 8px 0;
+}
+
+footer {
+    background-color: #003366; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    section.projects {
+        padding: 10px;
+    }
+
+    .project {
+        padding: 15px;
+    }
+}
 .team {
     padding: 30px 0;
     text-align: center;
@@ -407,7 +446,7 @@ footer {
     width: 100%;
 }
 .company-cover-img{
-    background-image: url(../photo/Our-Company-BG);
+    background-image: url(../photo/beautiful-view-construction-site-city-sunset_181624-9347.avif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -425,29 +464,54 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
-.company-container {
-    display: flex;
-    flex-direction: column; /* Stack companies vertically */
-    align-items: center;
-    margin: 20px 0;
-}
-.company-box {
-    display: flex; /* Use flexbox to position image and description */
-    align-items: center;
-    background-color: #ff4d4d; /* Red */
+
+
+.company-card {
+    background-color: red;
     color: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    width: 80%; /* Adjust width for better responsiveness */
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 18rem;
+    height: 25rem;
+    margin-top: 10px;
 }
-.company-box img {
-    width: 30%; /* Adjust image width */
-    border-radius: 10px; /* Match box corner radius */
-    margin-right: 20px; /* Space between image and text */
+
+.company-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
 }
+
+.company-card-img {
+    width: 12rem;
+    height: 2rem;
+}
+
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.company-card-info button {
+    margin: 2rem 1rem;
+}
+
+.company-card-name {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #000000;
+}
+.company-card-role {
+    font-size: 1rem;
+    color: antiquewhite;
+    margin: 5px 0;
+    padding: 5px;
+}
+
 
 /*.....................................CONTACT PAGE.......................................... */
 
