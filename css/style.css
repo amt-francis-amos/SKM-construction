@@ -344,7 +344,7 @@ footer {
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
     width: 18rem;
-    height: 25rem;
+    height: 35rem;
     margin-top: 10px;
 }
 
@@ -355,7 +355,7 @@ footer {
 
 .card-img {
     width: 18rem;
-    height: 12rem;
+    height: 23rem;
 }
 
 .card-img img {
