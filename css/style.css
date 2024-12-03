@@ -344,8 +344,11 @@ footer {
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
     width: 18rem;
-    height: 35rem;
+    height: 38rem;
     margin-top: 10px;
+}
+.card-info{
+    padding: 1em;
 }
 
 .card:hover {
