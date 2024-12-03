@@ -223,6 +223,7 @@ footer {
 
 
 
+
 .info-section {
    display:grid;
    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
@@ -253,6 +254,45 @@ footer {
 
 .info-box:hover {
     transform: scale(1.05);
+}
+
+.index-btn{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    
+   
+    
+    
+}
+
+.Read-btn{
+    padding: 6px 12px;
+    background-color: #e63946;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    
+}
+
+.Read-btn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.Contact-btn{
+    padding: 6px 12px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.Contact-btn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
 }
    
 
