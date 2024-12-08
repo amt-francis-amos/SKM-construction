@@ -271,13 +271,14 @@ marquee{
 
 .Read-btn{
     padding: 6px 12px;
-    background-color: #e63946;
-    color: white;
+    background-color: antiquewhite;
+    color: black;
     border-radius: 8px;
     font-size: 20px;
     box-shadow: 0px 9px 6px 0px;
     border-color: white;
     box-sizing: border-box;
+    border-style: double;
 
 }
 
@@ -289,13 +290,14 @@ marquee{
 
 .Contact-btn{
     padding: 6px 12px;
-    background-color: #003366;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     border-radius: 8px;
     font-size: 20px;
     box-shadow: 0px 9px 6px 0px;
     border-color: white;
     box-sizing: border-box;
+    border-style: double;
 }
 
 .Contact-btn:hover{
@@ -311,7 +313,7 @@ marquee{
     width: 100%;
 }
 .about-us-cover-img{
-    background-image: url(../photo/About\ Us.png);
+    background-image: url(../photo/AEbackgroundImmage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
