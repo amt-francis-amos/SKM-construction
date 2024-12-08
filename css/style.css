@@ -181,7 +181,13 @@ footer {
   }
   
 
-/*  HOME PAGE STYLING*/
+/* ............................... HOME PAGE STYLING................................*/
+marquee{
+    background-color: #91c2f3;
+    color: black;
+    height: 3vh;
+}
+
 .slideshow-container {
     position: relative;
     max-width: 100%;
@@ -199,10 +205,6 @@ footer {
 .home-sec {
     padding: 40px;
     text-align: center;
-    background-image: url(../photo/abstract-watercolor-pastel-background_87374-139.avif);
-    background-position: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -232,10 +234,11 @@ footer {
 
 
 .info-box {
-    background-color: #ff4d4d; 
-    color: white;
+    background-color: antiquewhite; 
+    color: black;
     padding:40px;
     border-radius:10px;
+    border-style: double;
 }
 
 .info-box i{
@@ -602,9 +605,10 @@ footer {
 .contact-box {
     background-color: #ff4d4d; /* Red */
     color: white;
-    padding: 35px;
+    padding: 10px 30px;
     border-radius: 10px;
     width: 100%;
+    margin: 10px;
     
     
     
@@ -615,7 +619,7 @@ footer {
     border-radius: 12px;
     text-align: center;
     width: 100%;
-    padding: 8px 0;
+    padding: 40px 0;
     box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.3);
     
 }
