@@ -308,7 +308,7 @@ footer {
     width: 100%;
 }
 .about-us-cover-img{
-    background-image: url(../photo/AEbackgroundImmage.jpg);
+    background-image: url(../photo/About\ Us.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -502,7 +502,7 @@ footer {
     width: 100%;
 }
 .company-cover-img{
-    background-image: url(../photo/beautiful-view-construction-site-city-sunset_181624-9347.avif);
+    background-image: url(../photo/Our\ Company\ 3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -512,10 +512,14 @@ footer {
     color: black;
 }
 
+.company-summary{
+    padding: 0px 12px;
+}
+
 .company-sec {
     padding: 40px;
     text-align: center;
-    background-color: white;
+    
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -523,15 +527,17 @@ footer {
 
 
 .company-card {
-    background-color: red;
-    color: white;
+    color: black;
+    border-style: double;
     border-radius: 6px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
-    width: 18rem;
-    height: 25rem;
+    width: 24rem;
+    height: 20rem;
     margin-top: 10px;
+    background-color: white;
+    padding: 10px;
 }
 
 .company-card:hover {
@@ -539,18 +545,10 @@ footer {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
 }
 
-.company-card-img {
-    width: 12rem;
-    height: 2rem;
-}
 
 
-.card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-}
+
+
 
 .company-card-info button {
     margin: 2rem 1rem;
@@ -563,7 +561,7 @@ footer {
 }
 .company-card-role {
     font-size: 1rem;
-    color: antiquewhite;
+    color: black;
     margin: 5px 0;
     padding: 5px;
 }
@@ -604,10 +602,11 @@ footer {
 .contact-box {
     background-color: #ff4d4d; /* Red */
     color: white;
-    padding: 20px;
+    padding: 35px;
     border-radius: 10px;
     width: 100%;
-    margin: 20px;
+    
+    
     
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -665,7 +664,7 @@ footer {
     width: 100%;
 }
 .our-project-cover-img{
-    background-image: url(../photo/abstract-architecture-construction-4748733.webp);
+    background-image: url(../photo/project-banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -675,11 +674,16 @@ footer {
     color: black;
 }
 
+.project-summary{
+    padding: 0px 12px;
+}
+
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
+    
 }
 .gallery-item {
     position: relative;
@@ -688,6 +692,7 @@ footer {
     overflow: hidden; /* Hide overflow for image */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    
 }
 .gallery-item img {
     width: 100%;
