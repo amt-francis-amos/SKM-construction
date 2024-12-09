@@ -234,7 +234,7 @@ marquee{
 
 
 .info-box {
-    background-color: antiquewhite; 
+    background-color: white; 
     color: black;
     padding:40px;
     border-radius:10px;
@@ -246,11 +246,11 @@ marquee{
      font-size:22px;
      width:70px;
      height:70px;
-     background:#fff;
+     background: red;
      border-radius:50%;
      text-align:center;
      padding:20px 0;
-     color:#e63946;
+     color: #fff;
 }
 
 
