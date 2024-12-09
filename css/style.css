@@ -183,8 +183,8 @@ footer {
 
 /* ............................... HOME PAGE STYLING................................*/
 marquee{
-    background-color: #91c2f3;
-    color: black;
+    background-color: #f34268;
+    color: white;
     height: 3vh;
 }
 
@@ -271,8 +271,8 @@ marquee{
 
 .Read-btn{
     padding: 6px 12px;
-    background-color: rgb(245, 78, 114);
-    color: black;
+    background-color: rgb(3, 3, 65);
+    color: white;
     border-radius: 8px;
     font-size: 20px;
     box-shadow: 0px 9px 6px 0px;
@@ -290,12 +290,12 @@ marquee{
 
 .Contact-btn{
     padding: 6px 12px;
-    background-color: rgb(143, 141, 141);
+    background-color: whitesmoke;
     color: black;
     border-radius: 8px;
     font-size: 20px;
-    box-shadow: 0px 9px 6px 0px;
-    border-color: white;
+    
+    border-color: black;
     box-sizing: border-box;
     border-style: double;
 }
@@ -342,7 +342,6 @@ section.projects {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project h2 {
@@ -605,7 +604,7 @@ footer {
 
 }
 .contact-box {
-    background-color: rgb(156, 156, 248); /* Red */
+    background-color: rgb(3, 3, 77);
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
@@ -613,6 +612,7 @@ footer {
     margin: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-style: double;
 }
 .contact-info{
     background-color: whitesmoke;
@@ -621,7 +621,7 @@ footer {
     color: #000000;
     text-align: center;
     width: 100%;
-    padding: 40px 0;
+    padding: 40px 20px;
     box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.3);
     
 }
