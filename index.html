@@ -6,49 +6,61 @@
     <title>Home - SKM Construction & Industry SL Ltd.</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" image="x-image"  href="assets/SK-logo.jpeg">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script
         src="https://kit.fontawesome.com/3d9dc13736.js"
         crossorigin="anonymous">
     </script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   
 </head>
 <body>
-    
-    <header>
-        <img src="assets/SK-logo.jpeg" alt="SKM Construction Logo">
-        <h1>Welcome to SKM Construction & Industry SL Ltd.</h1>
-        <p>Building the Future, Today</p>
-    </header>
-   
-    <nav>
+
+
+<!--  --- HEADER SECTION ----- -->
+
+<header>
+    <div class="header-row">
+      <img class="logo" src="assets/SK-logo.jpeg" title="SKM Construction Logo" alt="SKM Construction Logo">
+      <h1>WELCOME TO SKM GROUP OF COMPANIES LIBERIA LTD.</h1>
+      <p>Building the Future, Today</p>
+    </div>
+  
+    <div class="navbar">
+      <nav >
         <i id="menu-icon" onclick="toggleMenu()" class="fa fa-bars"></i>
-        <i id="close-icon" onclick="toggleMenu()" class="fa fa-times" style="display: none;"></i> 
+        <i id="close-icon" onclick="toggleMenu()" class="fa fa-times" style="display: none;"></i>
         
         <ul id="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="companies.html">Our Company</a></li>
-            <li><a href="gallery.html">Our-Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-           
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="companies.html">Our Company</a></li>
+          <li><a href="projects.html">Our Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
-    <!-- <marquee scroll amount="2" onmouseover="this.stop()" onmouseout="this.start()">
-        "Trusted leaders in construction since 2009, SKM Construction & Industry SL Ltd. 
-        delivers excellence in civil engineering, building construction, and sustainable solutions across Sierra Leone."
-    </marquee> -->
+      </nav>
+    </div>
+  </header>
+  
+   <!-- ---- END OF HEADER SECTION ----- -->
 
     
 
-    <div class="slideshow-container">
-        <img class="mySlides" src="photo/Project-2.jpg" alt="Project 2">
-        <img class="mySlides" src="photo/BNAParkingGrnd051118_160-950x633-1-950x570.jpg" alt="Project 1">
-        <img class="mySlides" src="photo/Home-heroe.jpg" alt="Project 3">
-    </div>
+   <!-- --- MAIN SECTION ----- -->
+
+  <main>
+
+
+    <div class="slideshow-container bg-cover"></div>
 
     <section class="home-sec">
+       <div class="container">
+      <div class="animate__animated animate__slideInUp">
         <h1>Who We Are?</h1>
         <p>
             We are a premier construction company in Sierra Leone, renowned for our dedication to delivering exceptional solutions in civil engineering, building construction, and beyond since 2009. 
@@ -56,11 +68,9 @@
             Our steadfast commitment to quality, safety, and sustainability ensures that every project we undertake not only meets but exceeds client expectations, contributing to the development 
             and progress of the communities we serve.
         </p>
-        <!-- <div class="index-btn">
-            <a href="about.html"> <button class="Read-btn">Read More</button></a>
-             <a href="contact.html"><button class="Contact-btn">Contact Us</button></a>
-         </div> <br><br> -->
-        <div class="info-section">
+      </div>
+       
+        <div class="info-section animate__animated animate__bounceInRight">
             <div class="info-box">
                 <i class="fas fa-flag"></i>
                 <h3> Our Mission</h3>
@@ -83,78 +93,82 @@
                 </p>
             </div>
         </div>
+        
+       </div>
 
        
     </section>
     
    
+
+
+
+  </main>
    
  
+<!-- ---- END OF MAIN SECTION ---- -->
 
-    <footer>
+
+<!-- ---- FOOTER SECTION ---- -->
+<footer>
+    <div class="container">
         <div class="footer-container">
+
             <div class="footer-info">
-                <img src="photo/SK logo.jpeg" alt="SKM Construction Logo" style="height: 50px;"> <!-- Company Logo -->
+                <img class="logo" src="assets/SK-logo.jpeg" alt="SKM Construction Logo">
                 <p><strong>Contact Us:</strong></p>
-                <p>Email: <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupliberia@163.com</a></p>
-                <p>Phone: 077-008688 / 076699649</p>
-                <p>Address: 386 Bai Bureh Road, Calaba Town, Freetown</p>
+                <div class="email-info">
+                    <p>Email: <a href="mailto:skmgroupliberia@163.com" class="email">skmgroupliberia@163.com</a></p>
+                    <p>Mobile Phone: 002317775000084 / 00231777618618</p>
+                    <p>Address: SKM BUILDING, CATHLIC JUNCTION</p>
+                    <p>BOULEVARD ROAD, MONROVIA, LIBERIA</p>
+                </div>
             </div>
-            
+
             <div class="footer-info">
+                <h2>Links</h2>
                 <ul>
-                    <li ><a href="index.html" style="color: white;">Home</a></li>
-                    <li ><a href="about.html" style="color: white;">About</a></li>
-                    <li ><a href="services.html" style="color: white;">Services</a></li>
-                    <li ><a href="companies.html" style="color: white;">Our Company</a></li>
-                    <li ><a href="gallery.html" style="color: white;">Our Projects</a></li>
-                    <li ><a href="contact.html" style="color: white;">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="companies.html">Our Company</a></li>
+                    <li><a href="projects.html">Our Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            
+
             <div class="footer-info">
-                <h4 style="color: white;">Frequently Asked Questions</h4>
+                <h2>Frequently Asked Questions</h2>
                 <div class="faq-section">
-                    <details style="margin-bottom: 10px;">
-                        <summary style="cursor: pointer; color: white;">Q: What services does SKM offer?</summary>
+                    <details>
+                        <summary>Q: What services does SKM offer?</summary>
                         <p>A: SKM offers a range of services including construction, civil engineering, road and bridge construction, and material supply.</p>
                     </details>
-                    <details style="margin-bottom: 10px;">
-                        <summary style="cursor: pointer; color: white;">Q: How can I contact SKM?</summary>
-                        <p>A: You can contact us via email at <a href="mailto:skmgroupsl@yahoo.com" style="color: white;">skmgroupsl@yahoo.com</a> or call us at 077-008688 / 076699649.</p>
+                    <details>
+                        <summary>Q: How can I contact SKM?</summary>
+                        <p>A: You can contact us via email at <a href="mailto:skmgroupsl@yahoo.com">skmgroupsl@yahoo.com</a> or call us at 077-008688 / 076699649.</p>
                     </details>
-                    <details style="margin-bottom: 10px;">
-                        <summary style="cursor: pointer; color: white;">Q: Where is SKM located?</summary>
+                    <details>
+                        <summary>Q: Where is SKM located?</summary>
                         <p>A: Our office is located at 386 Bai Bureh Road, Calaba Town, Freetown.</p>
                     </details>
                 </div>
             </div>
+
         </div>
-        <p style="text-align: center; padding: 10px; background-color: #003366; color: white;">© 2024 SKM Construction & Industry SL Ltd. All Rights Reserved</p>
-    </footer>
+    </div>
 
-    <script>
-        // Slideshow functionality
-        let slideIndex = 0;
-        showSlides();
+  
+</footer>
+<section>
+    <p class="footer-bottom">&copy; 2024  SKM GROUP OF COMPANIES LIBERIA LTD. All Rights Reserved</p>
+</section>
+<!-- ----END OF FOOTER SECTION ---- -->
 
-        function showSlides() {
-            const slides = document.getElementsByClassName("mySlides");
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}    
-            slides[slideIndex - 1].style.display = "block";  
-            setTimeout(showSlides, 3000); // Change image every 3 seconds
-        }
 
-       
-        function toggleMenu() {
-            const navLinks = document.getElementById('nav-links');
-            navLinks.classList.toggle('show'); 
-        }
-    </script>
-    
+
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
